@@ -12,8 +12,8 @@ def arGenerator():
 	generator = aruco.drawMarker(dictionary, 0, 100)
 	cv2.imwrite(fileName, generator)
 
-    img = cv2.imread(fileName)
-    cv2.imshow('ArMaker', img)
-    cv2.waitKey(0)
+	img = cv2.imread(fileName)
+	cv2.imshow('ArMaker', img)
+	cv2.waitKey(0)
 
 arGenerator()
